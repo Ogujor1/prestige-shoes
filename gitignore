@@ -1,0 +1,66 @@
+# =================================
+#  PRESTIGE SHOES — .gitignore
+# =================================
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+.AppleDouble
+.LSOverride
+ehthumbs.db
+Icon?
+
+# Code editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.swn
+*~
+
+# Logs and temp files
+*.log
+*.bak
+*.backup
+*.tmp
+*.temp
+*-OLD.*
+*-old.*
+*.orig
+
+# Node / build tools (if added later)
+node_modules/
+package-lock.json
+yarn.lock
+dist/
+build/
+.cache/
+
+# WordPress-specific (in case theme is dropped into a full WP project)
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/object-cache.php
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Compressed archives (we don't want to track zips of the theme itself)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Editor-generated theme backups
+*-OLD.php
+*.php~
